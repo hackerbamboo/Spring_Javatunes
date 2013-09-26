@@ -1,0 +1,7 @@
+jQuery.i18n.fr.strings = {
+    "added": "Ajouté au panier!",
+    "updated": "mis à jour le panier!",
+    "deleted": "supprimé cet article!",
+    "thankyou" : "merci d'avoir acheté avec nous!",
+    "downloading" : "La musique sera envoyé à votre adresse e-mail sous peu. Je vous remercie!"
+};

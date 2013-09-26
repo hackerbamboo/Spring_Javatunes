@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<context:annotation-config />
+
+	<bean id="catalogImpl" class="com.javatunes.service.CatalogImpl">
+		<constructor-arg ref="jpaItemDAO" />
+	</bean>
+	
+	<bean id="usersImpl" class="com.javatunes.service.UsersImpl">
+		<constructor-arg ref="jpaUserDAO" />
+	</bean>
+	
+	<bean id="purchaseOrderImpl" class="com.javatunes.service.LPurchaseOrderImpl">
+	
+	</bean>
+
+	<bean id="purchaseMusicItemImpl" class="com.javatunes.service.LPurchaseMusicItemImpl">
+	</bean>
+	
+	
+	
+</beans>

@@ -1,0 +1,118 @@
+body,input,.hint,h2 {
+	font-family: 'Open Sans', 'lucida grande', 'Segoe UI', arial, verdana,
+		'lucida sans unicode', tahoma, sans-serif;
+}
+
+body {
+	background-image: url("../images/music.gif");
+	background-size: cover;
+}
+
+h2 {
+	color: black;
+}
+
+#homepage {
+	text-align: center;
+	margin-top: 10%;
+}
+
+.Button {
+	cursor: pointer;
+	border: #fff;
+	width: 150px;
+	height: 33px;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(0, 255, 255)),
+		to(rgb(0, 191, 255)));
+}
+
+.Button:hover {
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(0, 255, 255)),
+		to(rgb(65, 105, 225)));
+}
+.nbutton, .addButton, .updateButton, .deleteButton{
+	color: white;
+	cursor: pointer;
+	border: #fff;
+	width: 80px;
+	height: 24px;
+	border-radius:3px;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(221,160,221)),
+		to(rgb(238,130,238)));
+	
+}
+.nbutton:hover{
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(221,160,221)),
+		to(rgb(255,0,255)));
+}
+.addButton:hover{
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(221,160,221)),
+		to(rgb(255,0,255)));
+}
+.updateButton:hover{
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(221,160,221)),
+		to(rgb(255,0,255)));
+}
+.deleteButton:hover{
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(221,160,221)),
+		to(rgb(255,0,255)));
+}
+#homepage p{
+	color: white;
+}
+#homepage a {
+	text-decoration: none;
+	color: #00BFFF;
+	cursor: pointer;
+}
+
+#homepage a:hover {
+	text-decoration: underline;
+}
+
+#login, #signup {
+	background-color: #fff;
+	box-shadow: rgba(68, 68, 68, 0.4) 0px 0px 25px 0px, rgb(0, 0, 0) 0px 0px
+		0px 0px;
+}
+
+.hint {
+	color: red;
+	font-size: 10px;
+}
+
+.closeimage {
+	width: 16px;
+	height: 16px;
+	top: 12px;
+	right: 12px;
+	position: absolute;
+	cursor: pointer;
+}
+.select{
+	width: 180px;
+   height: 28px;
+   overflow: hidden;
+   background: url('http://s24.postimg.org/lyhytocf5/dropdown.png') no-repeat right #FEFEFE;
+   border: #FEFEFE 1px solid;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+}
+.select select {
+  
+   background: transparent;
+   width: 180px;
+   font-size:7pt;
+   
+   
+   border-radius: 0;
+   height: 28px;
+   -webkit-appearance: none;
+   
+   }
+.select select:focus {
+    outline: none;
+
+}

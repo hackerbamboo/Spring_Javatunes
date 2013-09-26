@@ -1,0 +1,8 @@
+jQuery.i18n.en.strings = {
+    "added": "Added to the Cart1",
+    "updated":"Updated to the Cart!",
+    "deleted": "Deleted this item!",
+    "thankyou": "Thank you for purchasing with us!",
+    "downloading" : "The music will be sent to your email address shortly. Thank you!"
+    
+};
